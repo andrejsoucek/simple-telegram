@@ -37,12 +37,12 @@ Simple-telegram allows send and receive messages by Telegram so, how do it?
 	Sintaxis: tg.send(userName, message)
 	Example:
 	```javascript
-	var SimpleTelegram = require('/home/guiller/code/simple-telegram/lib/simpletelegram.js')
+	var SimpleTelegram = require('simple-telegram')
 	var stg = new SimpleTelegram()
 
 	// Replace next values to your own paths
-	var tgBinFile  = "/home/guiller/code/obedience/bin/telegram-cli"
-	var tgKeysFile = "/home/guiller/code/obedience/bin/tg-server.pub"
+	var tgBinFile  = "[your path]/telegram-cli"
+	var tgKeysFile = "[your path]/tg-server.pub"
 
 	// Creating simpleTelegram object
 	stg.create(tgBinFile, tgKeysFile)
@@ -55,16 +55,16 @@ Simple-telegram allows send and receive messages by Telegram so, how do it?
 2. Receiving a message:
 
 	Catching ‘receiveMessage’ event, which provide you a object like this:
-		msg = { “user”:”John”; “message”: “Hi” }
+		msg = { “caller”:”John”; “content”: “Hi”; "command": "Hi"; "args":"" }
 	Example:
 
 	```javascript
-	var SimpleTelegram = require('/home/guiller/code/simple-telegram/lib/simpletelegram.js')
+	var SimpleTelegram = require('simple-telegram')
 	var stg = new SimpleTelegram()
 
 	// Replace next values to your own paths
-	var tgBinFile  = "/home/guiller/code/obedience/bin/telegram-cli"
-	var tgKeysFile = "/home/guiller/code/obedience/bin/tg-server.pub"
+	var tgBinFile  = "[your path]/telegram-cli"
+	var tgKeysFile = "[your path]/tg-server.pub"
 
 	// Creating simpleTelegram object
 	stg.create(tgBinFile, tgKeysFile)
