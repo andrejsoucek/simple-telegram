@@ -23,7 +23,7 @@ If you prefer git:
 	git clone https://github.com/GuillermoPena/simple-telegram.git
 
 Simple-telegram has been tested in Ubuntu 14.04 and Raspberry Pi with Raspbmc.
-This doesn’t mean that Obedience doesn’t work in other systems… try it!
+This doesn’t mean that Simple-Telegram doesn’t work in other systems… try it!
 
 
 
