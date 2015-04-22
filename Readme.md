@@ -6,7 +6,7 @@ Simple wrapper to send and receive messages by Telegram
 
 ## Pre-requisites
 
-Obedience is based in [vysheng’s telegram-cli project](https://github.com/vysheng/tg). You must install and configure this great project previously to use Obedience. You can obtain every info that you need in [vysheng’s repository](https://github.com/vysheng/tg).
+Obedience is based in [vysheng’s telegram-cli project](https://github.com/vysheng/tg). You must install and configure this great project previously to use Simple-Telegram. You can obtain every info that you need in [vysheng’s repository](https://github.com/vysheng/tg).
 
 Also, you must install nodeJs 0.10 or above. You can check more info [here](http://www.nodejs.org).
 
