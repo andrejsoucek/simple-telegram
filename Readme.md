@@ -54,7 +54,7 @@ Simple-telegram allows send and receive messages by Telegram so, how do it?
 
 2. Receiving a message:
 
-	Catching ‘receiveMessage’ event, which provide you a object like this:
+	Catching ‘receivedMessage’ event, which provide you a object like this:
 		msg = { “caller”:”John”; “content”: “Hi”; "command": "Hi"; "args":"" }
 	Example:
 
