@@ -6,11 +6,8 @@ Simple wrapper to send and receive messages by Telegram
 
 ## Pre-requisites
 
-<<<<<<< HEAD
-simple-telegram is based in [vysheng’s telegram-cli project](https://github.com/vysheng/tg). You must install and configure this great project previously to use simple-telegram. You can obtain every info that you need in [vysheng’s repository](https://github.com/vysheng/tg).
-=======
-Obedience is based in [vysheng’s telegram-cli project](https://github.com/vysheng/tg). You must install and configure this great project previously to use Simple-Telegram. You can obtain every info that you need in [vysheng’s repository](https://github.com/vysheng/tg).
->>>>>>> 3cb72312dfcde4501502a88cb62e80f6784d6b16
+
+Simple-telegram is based in [vysheng’s telegram-cli project](https://github.com/vysheng/tg). You must install and configure this great project previously to use simple-telegram. You can obtain every info that you need in [vysheng’s repository](https://github.com/vysheng/tg).
 
 Also, you must install nodeJs 0.10 or above. You can check more info [here](http://www.nodejs.org).
 
@@ -27,11 +24,7 @@ If you prefer git:
 	git clone https://github.com/GuillermoPena/simple-telegram.git
 
 Simple-telegram has been tested in Ubuntu 14.04 and Raspberry Pi with Raspbmc.
-<<<<<<< HEAD
 This doesn’t mean that simple-telegram doesn’t work in other systems… try it!
-=======
-This doesn’t mean that Simple-Telegram doesn’t work in other systems… try it!
->>>>>>> 3cb72312dfcde4501502a88cb62e80f6784d6b16
 
 
 
