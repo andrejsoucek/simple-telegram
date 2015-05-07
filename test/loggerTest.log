@@ -1,0 +1,35 @@
+{"level":"info","message":"Telegram Communicator Object has been created.","timestamp":"2015-05-05T15:35:43.087Z"}
+{"level":"info","message":"Waiting messages...","timestamp":"2015-05-05T15:35:43.092Z"}
+{"level":"info","message":"Me >>> Guillermo : Hi!","timestamp":"2015-05-05T15:35:48.096Z"}
+{"level":"info","message":"Telegram Communicator Object has been created.","timestamp":"2015-05-05T15:41:19.393Z"}
+{"level":"info","message":"Waiting messages...","timestamp":"2015-05-05T15:41:19.398Z"}
+{"level":"info","message":"Me >>> Guillermo : Hi!","timestamp":"2015-05-05T15:41:24.401Z"}
+{"level":"info","message":"Bye","timestamp":"2015-05-05T15:41:24.403Z"}
+{"level":"info","message":"Exitting from Telegram","timestamp":"2015-05-05T15:41:31.403Z"}
+[05/05/15 5:43:18 PM][info] - Telegram Communicator Object has been created.
+[05/05/15 5:43:18 PM][info] - Waiting messages...
+[05/05/15 5:43:23 PM][info] - Me >>> Guillermo : Hi!
+[05/05/15 5:43:23 PM][info] - Bye
+[05/05/15 5:43:30 PM][info] - Exitting from Telegram
+[05/07/15 1:02:45 PM][info] - Telegram Communicator Object has been created.
+[05/07/15 1:02:45 PM][info] - Waiting messages...
+[05/07/15 1:02:50 PM][info] - Me >>> Guillermo : Hi!
+[05/07/15 1:02:50 PM][info] - Bye
+[05/07/15 1:02:57 PM][info] - Exitting from Telegram
+[05/07/15 1:04:49 PM][info] - Telegram Communicator Object has been created.
+[05/07/15 1:04:49 PM][info] - Waiting messages...
+[05/07/15 1:04:54 PM][info] - Me >>> Guillermo : Hi!
+[05/07/15 1:04:54 PM][info] - Bye
+[05/07/15 1:05:01 PM][info] - Exitting from Telegram
+[05/07/15 1:09:26 PM][info] - Telegram Communicator Object has been created.
+[05/07/15 1:09:26 PM][info] - Waiting messages...
+[05/07/15 1:09:31 PM][info] - Me >>> Guillermo : Hi!
+[05/07/15 1:09:31 PM][info] - Bye
+[05/07/15 1:09:38 PM][info] - Exitting from Telegram
+[05/07/15 1:10:02 PM][info] - Telegram Communicator Object has been created.
+[05/07/15 1:10:02 PM][info] - Waiting messages...
+[05/07/15 1:10:07 PM][info] - Me >>> Guillermo : Hi!
+[05/07/15 1:10:07 PM][info] - Bye
+[05/07/15 1:10:14 PM][info] - Exitting from Telegram
+[05/07/15 1:10:43 PM][info] - Telegram Communicator Object has been created.
+[05/07/15 1:10:43 PM][info] - Waiting messages...
