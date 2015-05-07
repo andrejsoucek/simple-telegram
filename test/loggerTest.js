@@ -2,7 +2,7 @@ var SimpleTelegram = require('/home/guiller/code/simple-telegram/lib/simpleteleg
 var stg = new SimpleTelegram()
 
 // Replace next values to your own paths
-var tgBinFile  = "/home/guiller/code/telegram-cli/telegram-cli"
+var tgBinFile  = ""
 var tgKeysFile = "/home/guiller/code/telegram-cli/tg-server.pub"
 
 // Preparing Winston logger
