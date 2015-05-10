@@ -2,7 +2,7 @@ var SimpleTelegram = require('/home/guiller/code/simple-telegram/lib/simpleteleg
 var stg = new SimpleTelegram()
 
 // Replace next values to your own paths
-var tgBinFile  = ""
+var tgBinFile  = "/home/guiller/code/telegram-cli/telegram-cli"
 var tgKeysFile = "/home/guiller/code/telegram-cli/tg-server.pub"
 
 // Preparing Winston logger
@@ -37,7 +37,10 @@ var logger = new winston.Logger({
   })
 
 // Creating simpleTelegram object
-stg.create(tgBinFile, tgKeysFile, logger)
+
+var tglogfile = '/home/guiller/code/simple-telegram/test/telegram-cli.log'
+var extraOptions = ' -vv >> ' + tglogfile
+stg.create(tgBinFile, tgKeysFile, logger, tglogfile, '-vv')
 
 // Sending Message
 setTimeout(function() {
