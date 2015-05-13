@@ -1,6 +1,6 @@
 # Simple-Telegram
 
-Simple wrapper to send and receive messages by Telegram
+Allow your programs to talk to you by Telegram
 
 
 
@@ -76,7 +76,46 @@ Simple-telegram allows send and receive messages by Telegram so, how do it?
 	})
 	```
 
+3. Send and receive a message from another program with socket.io
 
+	Server side:
+
+	```javascript
+	var SimpleTelegram = require('simple-telegram')
+	var stg = new SimpleTelegram()
+
+	// Replace next values to your own paths
+	var tgBinFile  = "[your path]/telegram-cli"
+	var tgKeysFile = "[your path]/tg-server.pub"
+
+	// Creating simpleTelegram object
+	var options = '-vv'	// Extra telegram option. In this case, more verbose output
+	stg.setSocketPort(3008)	// If you want send messages from another program, you must specify a port
+	stg.addLogger(logger)	// You can add one or more loggers (winston loggers) to files, DBs.. etc
+	stg.setTelegramDebugFile(tgDebugfile)	// Also, you can set a debug file for telegram process
+	stg.create(tgBinFile, tgKeysFile, options)
+	```
+
+	Client side:
+
+	```javascript
+	var io      = require('socket.io/node_modules/socket.io-client')
+	var socket  = io.connect( 'http://localhost:' + port) // Port defined in server side
+
+	socket.on('connect', function(){
+		console.log("Connected!")
+		socket.on('disconnect', function(){
+			console.log('Disconnected!')
+			return 0
+		})
+
+		// 'to' is a Telegram-cli contact
+		var message = { "from":"Test", "to":"Customer", "content":"Hi" }
+		console.log("Sending message...")
+		console.dir(message)
+		socket.emit('message', message)
+	})
+	```
 
 ## Contributors
 

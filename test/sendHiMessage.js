@@ -37,7 +37,8 @@ var logger = new winston.Logger({
   })
 
 // Creating simpleTelegram object
-stg.create(tgBinFile, tgKeysFile, logger)
+stg.addLogger(logger)
+stg.create(tgBinFile, tgKeysFile)
 
 // Sending Message
 setTimeout(function() {
