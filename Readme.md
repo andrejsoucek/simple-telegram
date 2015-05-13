@@ -76,7 +76,8 @@ Simple-telegram allows send and receive messages by Telegram so, how do it?
 	})
 	```
 
-3. Send and receive a message from another program with socket.io
+3. Send and receive a message from another program with socket.io...
+   ...and other optionals functions.
 
 	Server side:
 
@@ -89,10 +90,18 @@ Simple-telegram allows send and receive messages by Telegram so, how do it?
 	var tgKeysFile = "[your path]/tg-server.pub"
 
 	// Creating simpleTelegram object
-	var options = '-vv'	// Extra telegram option. In this case, more verbose output
-	stg.setSocketPort(3008)	// If you want send messages from another program, you must specify a port
-	stg.addLogger(logger)	// You can add one or more loggers (winston loggers) to files, DBs.. etc
-	stg.setTelegramDebugFile(tgDebugfile)	// Also, you can set a debug file for telegram process
+	var options = '-vv'	// Extra telegram option (more verbose output)
+
+	// If you want send messages from another program, you must specify a port
+	stg.setSocketPort(3008)
+
+	// You can add one or more loggers (winston loggers) to files, DBs.. etc
+	stg.addLogger(logger)
+
+	// Also, you can set a debug file for telegram process
+	stg.setTelegramDebugFile(tgDebugfile)
+
+	// Launching telegram process
 	stg.create(tgBinFile, tgKeysFile, options)
 	```
 
@@ -100,7 +109,7 @@ Simple-telegram allows send and receive messages by Telegram so, how do it?
 
 	```javascript
 	var io      = require('socket.io/node_modules/socket.io-client')
-	var socket  = io.connect( 'http://localhost:' + port) // Port defined in server side
+	var socket  = io.connect( 'http://localhost:' + port) // Port of server side
 
 	socket.on('connect', function(){
 		console.log("Connected!")
