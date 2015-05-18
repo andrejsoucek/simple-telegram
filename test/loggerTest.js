@@ -14,15 +14,16 @@ var logfile2 = '/home/guiller/code/simple-telegram/test/loggerTest2.log'
 var d2 = '2-digit';
 var options = { day: d2, month: d2, year: d2, hour: d2, minute: d2, second: d2 }
 
+var dtc = new Date().toLocaleTimeString('en-us', options);
+console.log(dtc)
 function formatter(args) {
-  var dateTimeComponents = new Date().toLocaleTimeString('en-UK', options).split(',');
+  var dateTimeComponents = new Date().toLocaleTimeString('en-us', options).split(',');
   var logMessage = '[' + dateTimeComponents[0] + dateTimeComponents[1] + '][' + args.level + '] - ' + args.message;
   return logMessage;
 }
 
 var logger = new winston.Logger({
     transports: [ new (winston.transports.File)({ filename: logfile
-                                                , timestamp: true
                                                 , json: false
                                                 , formatter: formatter
                                                 , level: "debug"

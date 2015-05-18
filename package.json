@@ -1,5 +1,5 @@
 { "name": "simple-telegram"
-, "version": "0.0.8"
+, "version": "0.0.9"
 , "description": "Simple wrapper to send and receive messages by Telegram"
 , "homepage": "http://github.com/GuillermoPena/simple-telegram"
 , "keywords": ["telegram", "telegram-cli"]
