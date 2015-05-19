@@ -53,4 +53,4 @@ stg.create(tgBinFile, tgKeysFile, options)
 setTimeout(function() {
   stg.send("Guillermo", "Hi!")
   setTimeout(function() { stg.quit() }, 7000)
-}, 5000)
+}, 2000)
