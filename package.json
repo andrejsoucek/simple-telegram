@@ -17,6 +17,10 @@
   }
 , "bugs": { "url": "http://github.com/GuillermoPena/simple-telegram/issues/" }
 , "directories": { "test": "./test" }
+, "files": [
+    "index.js",
+    "lib/"	
+],
 , "licenses": [
     {
       "type": "Apache License, Version 2.0",
