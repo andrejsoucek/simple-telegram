@@ -1,5 +1,5 @@
 { "name": "simple-telegram"
-, "version": "0.0.14"
+, "version": "0.0.15"
 , "description": "Simple wrapper to send and receive messages by Telegram"
 , "homepage": "http://github.com/GuillermoPena/simple-telegram"
 , "keywords": ["telegram", "telegram-cli"]
@@ -19,7 +19,7 @@
 , "directories": { "test": "./test" }
 , "files": [
     "index.js",
-    "lib/"	
+    "lib/"
 ],
 , "licenses": [
     {
